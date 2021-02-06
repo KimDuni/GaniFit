@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,6 @@
 				07269640468D4D6EF8CF15F5 /* Pods-GanifitDietgram.debug.xcconfig */,
 				ECDF6E6E5DB82D80AD10440B /* Pods-GanifitDietgram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,13 +77,45 @@
 				DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */,
 				DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */,
 				DF01581225CCB4FE007AEE3F /* ViewController.swift */,
-				DF58952425CCB64800EE7FF4 /* PostingViewController.swift */,
-				DF01581425CCB4FE007AEE3F /* Main.storyboard */,
+				DFD1A35C25CEEF38003E4133 /* Model */,
+				DFD1A35B25CEEF30003E4133 /* ViewModel */,
+				DFD1A35A25CEEF28003E4133 /* Views */,
 				DF01581725CCB4FF007AEE3F /* Assets.xcassets */,
 				DF01581925CCB4FF007AEE3F /* LaunchScreen.storyboard */,
 				DF01581C25CCB4FF007AEE3F /* Info.plist */,
 			);
 			path = GanifitDietgram;
+			sourceTree = "<group>";
+		};
+		DFD1A35A25CEEF28003E4133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFD1A35D25CEEF47003E4133 /* Storyboard */,
+				DF58952425CCB64800EE7FF4 /* PostingViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFD1A35B25CEEF30003E4133 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFD1A35C25CEEF38003E4133 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFD1A35D25CEEF47003E4133 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DF01581425CCB4FE007AEE3F /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		E72833CFD6A5064D48EA901E /* Frameworks */ = {
