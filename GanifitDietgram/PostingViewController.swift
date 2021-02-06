@@ -9,6 +9,15 @@ import UIKit
 
 class PostingViewController: UIViewController {
 
+    @IBOutlet weak var vStack:UIStackView!{
+        didSet {
+            vStack.axis = .vertical
+            vStack.layer.cornerRadius = 10
+            vStack.layer.borderWidth = 1
+            vStack.layer.borderColor = UIColor(named: "BaseColor")!.cgColor
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
