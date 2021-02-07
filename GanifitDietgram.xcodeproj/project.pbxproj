@@ -15,6 +15,10 @@
 		DF01581825CCB4FF007AEE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF01581725CCB4FF007AEE3F /* Assets.xcassets */; };
 		DF01581B25CCB4FF007AEE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF01581925CCB4FF007AEE3F /* LaunchScreen.storyboard */; };
 		DF58952525CCB64800EE7FF4 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58952425CCB64800EE7FF4 /* PostingViewController.swift */; };
+		DF5DC5A725CFCCD20014035F /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DC5A625CFCCD20014035F /* StoryboardInstantiable.swift */; };
+		DF5DC5AB25CFCEAD0014035F /* StackPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DC5AA25CFCEAD0014035F /* StackPointer.swift */; };
+		DFBAA24525CFFD1300A03626 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA24425CFFD1300A03626 /* AppColor.swift */; };
+		DFD82CEC25CFC8C600F01218 /* AppSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82CEB25CFC8C600F01218 /* AppSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		DF01581A25CCB4FF007AEE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF01581C25CCB4FF007AEE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58952425CCB64800EE7FF4 /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		DF5DC5A625CFCCD20014035F /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		DF5DC5AA25CFCEAD0014035F /* StackPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPointer.swift; sourceTree = "<group>"; };
+		DFBAA24425CFFD1300A03626 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		DFD82CEB25CFC8C600F01218 /* AppSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSize.swift; sourceTree = "<group>"; };
 		ECDF6E6E5DB82D80AD10440B /* Pods-GanifitDietgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.release.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +85,8 @@
 				DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */,
 				DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */,
 				DF01581225CCB4FE007AEE3F /* ViewController.swift */,
+				DFD82CEA25CFC8BA00F01218 /* Util */,
 				DFD1A35C25CEEF38003E4133 /* Model */,
-				DFD1A35B25CEEF30003E4133 /* ViewModel */,
 				DFD1A35A25CEEF28003E4133 /* Views */,
 				DF01581725CCB4FF007AEE3F /* Assets.xcassets */,
 				DF01581925CCB4FF007AEE3F /* LaunchScreen.storyboard */,
@@ -87,11 +95,21 @@
 			path = GanifitDietgram;
 			sourceTree = "<group>";
 		};
+		DF5DC5A525CFCCC20014035F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DF5DC5A625CFCCD20014035F /* StoryboardInstantiable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		DFD1A35A25CEEF28003E4133 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DFD82CE925CFC84800F01218 /* Daily */,
+				DFD82CE825CFC83D00F01218 /* Posting */,
+				DFD82CE725CFC83100F01218 /* Setting */,
 				DFD1A35D25CEEF47003E4133 /* Storyboard */,
-				DF58952425CCB64800EE7FF4 /* PostingViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +134,40 @@
 				DF01581425CCB4FE007AEE3F /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DFD82CE725CFC83100F01218 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DFD82CE825CFC83D00F01218 /* Posting */ = {
+			isa = PBXGroup;
+			children = (
+				DFD1A35B25CEEF30003E4133 /* ViewModel */,
+				DF58952425CCB64800EE7FF4 /* PostingViewController.swift */,
+				DF5DC5AA25CFCEAD0014035F /* StackPointer.swift */,
+			);
+			path = Posting;
+			sourceTree = "<group>";
+		};
+		DFD82CE925CFC84800F01218 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		DFD82CEA25CFC8BA00F01218 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DFBAA24425CFFD1300A03626 /* AppColor.swift */,
+				DFD82CEB25CFC8C600F01218 /* AppSize.swift */,
+				DF5DC5A525CFCCC20014035F /* Protocols */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		E72833CFD6A5064D48EA901E /* Frameworks */ = {
@@ -241,8 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF01581325CCB4FE007AEE3F /* ViewController.swift in Sources */,
+				DFBAA24525CFFD1300A03626 /* AppColor.swift in Sources */,
 				DF58952525CCB64800EE7FF4 /* PostingViewController.swift in Sources */,
+				DF5DC5AB25CFCEAD0014035F /* StackPointer.swift in Sources */,
 				DF01580F25CCB4FE007AEE3F /* AppDelegate.swift in Sources */,
+				DFD82CEC25CFC8C600F01218 /* AppSize.swift in Sources */,
+				DF5DC5A725CFCCD20014035F /* StoryboardInstantiable.swift in Sources */,
 				DF01581125CCB4FE007AEE3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
