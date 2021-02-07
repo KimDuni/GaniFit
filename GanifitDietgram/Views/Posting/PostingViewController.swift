@@ -163,6 +163,7 @@ class PostingViewController: UIViewController, StoryboardInstantiable {
         viewInputBoard.addSubview(textView)
         
         animateTab()
+        //입력바람
     }
     
     
