@@ -6,12 +6,11 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 //extension Error {
 //    case FailToPush
 //}
+
 
 protocol PostingViewModelInput {
     func pushStack()
@@ -43,7 +42,7 @@ class PostingViewModel: PostingViewModelInput {
 
 class PostingViewController: UIViewController, StoryboardInstantiable {
     
-    private var disposeBag:DisposeBag = DisposeBag()
+//    private var disposeBag:DisposeBag = DisposeBag()
     
     @IBOutlet weak var btnPushStack:UIButton!
     
@@ -98,13 +97,13 @@ class PostingViewController: UIViewController, StoryboardInstantiable {
                                                   width: 15, height: 15))
         self.view.addSubview(stackPointer)
         
-        btnPushStack.rx.tap
-            .asDriver()
-            .drive(onNext: { [weak self] in
-                guard let weakSelf = self else { return }
-                
-                weakSelf.addPush(weakSelf.vStack.arrangedSubviews.count)
-            }).disposed(by: disposeBag)
+//        btnPushStack.rx.tap
+//            .asDriver()
+//            .drive(onNext: { [weak self] in
+//                guard let weakSelf = self else { return }
+//
+//                weakSelf.addPush(weakSelf.vStack.arrangedSubviews.count)
+//            }).disposed(by: disposeBag)
         
         for index in 0 ..< defStackCnt {
             addPush(index)
@@ -173,15 +172,19 @@ class PostingViewController: UIViewController, StoryboardInstantiable {
                                      y: viewBoardContainer.bounds.midY - 40,
                                      width: 240, height: 80)
         
-        UIView.animate(withDuration: 0.65,
-                               delay: 0.0,
-                               usingSpringWithDamping: 0.35,
-                               initialSpringVelocity: 0.6) { [weak self] in
-            if let self = self {
-                self.viewInputBoard.frame = CGRect(x: self.viewBoardContainer.bounds.midX - 150,
-                                     y: self.viewBoardContainer.bounds.midY - 75,
-                                     width: 300, height: 150)
-            }
-        }
+//        UIView.animate(withDuration: 0.1) {
+            
+//        }
+        
+//        UIView.animate(withDuration: 0.65,
+//                               delay: 0.0,
+//                               usingSpringWithDamping: 0.35,
+//                               initialSpringVelocity: 0.6) { [weak self] in
+//            if let self = self {
+//                self.viewInputBoard.frame = CGRect(x: self.viewBoardContainer.bounds.midX - 150,
+//                                     y: self.viewBoardContainer.bounds.midY - 75,
+//                                     width: 300, height: 150)
+//            }
+//        }
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F2C3697295146AFA6342AD5 /* Pods_GanifitDietgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32ACD63EEF57F5BA296C196 /* Pods_GanifitDietgram.framework */; };
+		4031FD9257FD12CB80EB96D8 /* Pods_GanifitDietgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */; };
 		DF01580F25CCB4FE007AEE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */; };
 		DF01581125CCB4FE007AEE3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */; };
 		DF01581325CCB4FE007AEE3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01581225CCB4FE007AEE3F /* ViewController.swift */; };
@@ -17,13 +17,28 @@
 		DF58952525CCB64800EE7FF4 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF58952425CCB64800EE7FF4 /* PostingViewController.swift */; };
 		DF5DC5A725CFCCD20014035F /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DC5A625CFCCD20014035F /* StoryboardInstantiable.swift */; };
 		DF5DC5AB25CFCEAD0014035F /* StackPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5DC5AA25CFCEAD0014035F /* StackPointer.swift */; };
+		DF67CC6725D7CC4C0079D23E /* PushTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC6625D7CC4C0079D23E /* PushTextViewController.swift */; };
+		DF67CC6A25D7D46B0079D23E /* PushSaveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC6925D7D46B0079D23E /* PushSaveManager.swift */; };
+		DF67CC6D25D7D5540079D23E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC6C25D7D5540079D23E /* ResultViewController.swift */; };
+		DF67CC7A25D7D6170079D23E /* SCDream1.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7025D7D6170079D23E /* SCDream1.otf */; };
+		DF67CC7B25D7D6170079D23E /* SCDream3.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7125D7D6170079D23E /* SCDream3.otf */; };
+		DF67CC7C25D7D6170079D23E /* SCDream2.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7225D7D6170079D23E /* SCDream2.otf */; };
+		DF67CC7D25D7D6170079D23E /* SCDream6.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7325D7D6170079D23E /* SCDream6.otf */; };
+		DF67CC7E25D7D6170079D23E /* SCDream7.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7425D7D6170079D23E /* SCDream7.otf */; };
+		DF67CC7F25D7D6170079D23E /* SCDream5.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7525D7D6170079D23E /* SCDream5.otf */; };
+		DF67CC8025D7D6170079D23E /* SCDream4.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7625D7D6170079D23E /* SCDream4.otf */; };
+		DF67CC8125D7D6170079D23E /* 에스코어 드림_라이선스.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7725D7D6170079D23E /* 에스코어 드림_라이선스.png */; };
+		DF67CC8225D7D6170079D23E /* SCDream9.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7825D7D6170079D23E /* SCDream9.otf */; };
+		DF67CC8325D7D6170079D23E /* SCDream8.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7925D7D6170079D23E /* SCDream8.otf */; };
+		DF67CC8625D7FE940079D23E /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC8525D7FE940079D23E /* EditViewController.swift */; };
+		DF6A7E9825D8120600B5B7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6A7E9725D8120600B5B7C4 /* Foundation.framework */; };
 		DFBAA24525CFFD1300A03626 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA24425CFFD1300A03626 /* AppColor.swift */; };
 		DFD82CEC25CFC8C600F01218 /* AppSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82CEB25CFC8C600F01218 /* AppSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07269640468D4D6EF8CF15F5 /* Pods-GanifitDietgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.debug.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.debug.xcconfig"; sourceTree = "<group>"; };
-		B32ACD63EEF57F5BA296C196 /* Pods_GanifitDietgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GanifitDietgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GanifitDietgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.debug.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.debug.xcconfig"; sourceTree = "<group>"; };
 		DF01580B25CCB4FE007AEE3F /* GanifitDietgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GanifitDietgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +50,24 @@
 		DF58952425CCB64800EE7FF4 /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
 		DF5DC5A625CFCCD20014035F /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		DF5DC5AA25CFCEAD0014035F /* StackPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPointer.swift; sourceTree = "<group>"; };
+		DF67CC6625D7CC4C0079D23E /* PushTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTextViewController.swift; sourceTree = "<group>"; };
+		DF67CC6925D7D46B0079D23E /* PushSaveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushSaveManager.swift; sourceTree = "<group>"; };
+		DF67CC6C25D7D5540079D23E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DF67CC7025D7D6170079D23E /* SCDream1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream1.otf; sourceTree = "<group>"; };
+		DF67CC7125D7D6170079D23E /* SCDream3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream3.otf; sourceTree = "<group>"; };
+		DF67CC7225D7D6170079D23E /* SCDream2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream2.otf; sourceTree = "<group>"; };
+		DF67CC7325D7D6170079D23E /* SCDream6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream6.otf; sourceTree = "<group>"; };
+		DF67CC7425D7D6170079D23E /* SCDream7.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream7.otf; sourceTree = "<group>"; };
+		DF67CC7525D7D6170079D23E /* SCDream5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream5.otf; sourceTree = "<group>"; };
+		DF67CC7625D7D6170079D23E /* SCDream4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream4.otf; sourceTree = "<group>"; };
+		DF67CC7725D7D6170079D23E /* 에스코어 드림_라이선스.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "에스코어 드림_라이선스.png"; sourceTree = "<group>"; };
+		DF67CC7825D7D6170079D23E /* SCDream9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream9.otf; sourceTree = "<group>"; };
+		DF67CC7925D7D6170079D23E /* SCDream8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream8.otf; sourceTree = "<group>"; };
+		DF67CC8525D7FE940079D23E /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		DF6A7E9725D8120600B5B7C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFBAA24425CFFD1300A03626 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		DFD82CEB25CFC8C600F01218 /* AppSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSize.swift; sourceTree = "<group>"; };
-		ECDF6E6E5DB82D80AD10440B /* Pods-GanifitDietgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.release.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.release.xcconfig"; sourceTree = "<group>"; };
+		E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.release.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,19 +75,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F2C3697295146AFA6342AD5 /* Pods_GanifitDietgram.framework in Frameworks */,
+				DF6A7E9825D8120600B5B7C4 /* Foundation.framework in Frameworks */,
+				4031FD9257FD12CB80EB96D8 /* Pods_GanifitDietgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		043A52C6E7172C07E7A2C818 /* Pods */ = {
+		28B5B05202D41B943564A98D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				07269640468D4D6EF8CF15F5 /* Pods-GanifitDietgram.debug.xcconfig */,
-				ECDF6E6E5DB82D80AD10440B /* Pods-GanifitDietgram.release.xcconfig */,
+				7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */,
+				E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -66,8 +98,8 @@
 			children = (
 				DF01580D25CCB4FE007AEE3F /* GanifitDietgram */,
 				DF01580C25CCB4FE007AEE3F /* Products */,
-				043A52C6E7172C07E7A2C818 /* Pods */,
 				E72833CFD6A5064D48EA901E /* Frameworks */,
+				28B5B05202D41B943564A98D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,23 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		DF67CC6F25D7D6170079D23E /* S-Core_Dream_OTF */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CC7025D7D6170079D23E /* SCDream1.otf */,
+				DF67CC7125D7D6170079D23E /* SCDream3.otf */,
+				DF67CC7225D7D6170079D23E /* SCDream2.otf */,
+				DF67CC7325D7D6170079D23E /* SCDream6.otf */,
+				DF67CC7425D7D6170079D23E /* SCDream7.otf */,
+				DF67CC7525D7D6170079D23E /* SCDream5.otf */,
+				DF67CC7625D7D6170079D23E /* SCDream4.otf */,
+				DF67CC7725D7D6170079D23E /* 에스코어 드림_라이선스.png */,
+				DF67CC7825D7D6170079D23E /* SCDream9.otf */,
+				DF67CC7925D7D6170079D23E /* SCDream8.otf */,
+			);
+			path = "S-Core_Dream_OTF";
+			sourceTree = "<group>";
+		};
 		DFD1A35A25CEEF28003E4133 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +159,11 @@
 				DFD82CE825CFC83D00F01218 /* Posting */,
 				DFD82CE725CFC83100F01218 /* Setting */,
 				DFD1A35D25CEEF47003E4133 /* Storyboard */,
+				DF67CC6625D7CC4C0079D23E /* PushTextViewController.swift */,
+				DF67CC6925D7D46B0079D23E /* PushSaveManager.swift */,
+				DF67CC6C25D7D5540079D23E /* ResultViewController.swift */,
+				DF67CC8525D7FE940079D23E /* EditViewController.swift */,
+				DF67CC6F25D7D6170079D23E /* S-Core_Dream_OTF */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,7 +227,8 @@
 		E72833CFD6A5064D48EA901E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B32ACD63EEF57F5BA296C196 /* Pods_GanifitDietgram.framework */,
+				DF6A7E9725D8120600B5B7C4 /* Foundation.framework */,
+				246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,7 +244,6 @@
 				DF01580725CCB4FE007AEE3F /* Sources */,
 				DF01580825CCB4FE007AEE3F /* Frameworks */,
 				DF01580925CCB4FE007AEE3F /* Resources */,
-				C6AA2908F9D7DD682094E339 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,32 +291,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF67CC8025D7D6170079D23E /* SCDream4.otf in Resources */,
+				DF67CC7C25D7D6170079D23E /* SCDream2.otf in Resources */,
+				DF67CC7E25D7D6170079D23E /* SCDream7.otf in Resources */,
+				DF67CC8225D7D6170079D23E /* SCDream9.otf in Resources */,
+				DF67CC7B25D7D6170079D23E /* SCDream3.otf in Resources */,
+				DF67CC7F25D7D6170079D23E /* SCDream5.otf in Resources */,
+				DF67CC7D25D7D6170079D23E /* SCDream6.otf in Resources */,
 				DF01581B25CCB4FF007AEE3F /* LaunchScreen.storyboard in Resources */,
 				DF01581825CCB4FF007AEE3F /* Assets.xcassets in Resources */,
+				DF67CC8325D7D6170079D23E /* SCDream8.otf in Resources */,
+				DF67CC8125D7D6170079D23E /* 에스코어 드림_라이선스.png in Resources */,
 				DF01581625CCB4FE007AEE3F /* Main.storyboard in Resources */,
+				DF67CC7A25D7D6170079D23E /* SCDream1.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C6AA2908F9D7DD682094E339 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EBB5EEF66137CD8D0584BB42 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,7 +346,11 @@
 				DF01580F25CCB4FE007AEE3F /* AppDelegate.swift in Sources */,
 				DFD82CEC25CFC8C600F01218 /* AppSize.swift in Sources */,
 				DF5DC5A725CFCCD20014035F /* StoryboardInstantiable.swift in Sources */,
+				DF67CC6725D7CC4C0079D23E /* PushTextViewController.swift in Sources */,
+				DF67CC8625D7FE940079D23E /* EditViewController.swift in Sources */,
+				DF67CC6A25D7D46B0079D23E /* PushSaveManager.swift in Sources */,
 				DF01581125CCB4FE007AEE3F /* SceneDelegate.swift in Sources */,
+				DF67CC6D25D7D5540079D23E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,41 +494,47 @@
 		};
 		DF01582025CCB4FF007AEE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07269640468D4D6EF8CF15F5 /* Pods-GanifitDietgram.debug.xcconfig */;
+			baseConfigurationReference = 7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VH29LQ6AQ4;
 				INFOPLIST_FILE = GanifitDietgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KimDuni.GanifitDietgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Diet_Appstore;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF01582125CCB4FF007AEE3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECDF6E6E5DB82D80AD10440B /* Pods-GanifitDietgram.release.xcconfig */;
+			baseConfigurationReference = E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VH29LQ6AQ4;
 				INFOPLIST_FILE = GanifitDietgram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KimDuni.GanifitDietgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Diet_Appstore;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
