@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4031FD9257FD12CB80EB96D8 /* Pods_GanifitDietgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */; };
+		A6C3F05959ABA604B8096BB9 /* Pods_GanifitDietgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2251A56ABED213F8E43FC24 /* Pods_GanifitDietgram.framework */; };
 		DF01580F25CCB4FE007AEE3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */; };
 		DF01581125CCB4FE007AEE3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */; };
 		DF01581325CCB4FE007AEE3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01581225CCB4FE007AEE3F /* ViewController.swift */; };
@@ -31,14 +31,13 @@
 		DF67CC8225D7D6170079D23E /* SCDream9.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7825D7D6170079D23E /* SCDream9.otf */; };
 		DF67CC8325D7D6170079D23E /* SCDream8.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF67CC7925D7D6170079D23E /* SCDream8.otf */; };
 		DF67CC8625D7FE940079D23E /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC8525D7FE940079D23E /* EditViewController.swift */; };
-		DF6A7E9825D8120600B5B7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6A7E9725D8120600B5B7C4 /* Foundation.framework */; };
 		DFBAA24525CFFD1300A03626 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBAA24425CFFD1300A03626 /* AppColor.swift */; };
 		DFD82CEC25CFC8C600F01218 /* AppSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD82CEB25CFC8C600F01218 /* AppSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GanifitDietgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.debug.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.debug.xcconfig"; sourceTree = "<group>"; };
+		1F1191D79C97ADC50BDDC46A /* Pods-GanifitDietgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.debug.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.debug.xcconfig"; sourceTree = "<group>"; };
+		7D45B527D2807BC72B4DAB43 /* Pods-GanifitDietgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.release.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.release.xcconfig"; sourceTree = "<group>"; };
 		DF01580B25CCB4FE007AEE3F /* GanifitDietgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GanifitDietgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF01580E25CCB4FE007AEE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF01581025CCB4FE007AEE3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +66,7 @@
 		DF6A7E9725D8120600B5B7C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFBAA24425CFFD1300A03626 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		DFD82CEB25CFC8C600F01218 /* AppSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSize.swift; sourceTree = "<group>"; };
-		E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GanifitDietgram.release.xcconfig"; path = "Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram.release.xcconfig"; sourceTree = "<group>"; };
+		F2251A56ABED213F8E43FC24 /* Pods_GanifitDietgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GanifitDietgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6A7E9825D8120600B5B7C4 /* Foundation.framework in Frameworks */,
-				4031FD9257FD12CB80EB96D8 /* Pods_GanifitDietgram.framework in Frameworks */,
+				A6C3F05959ABA604B8096BB9 /* Pods_GanifitDietgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,10 +84,9 @@
 		28B5B05202D41B943564A98D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */,
-				E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */,
+				1F1191D79C97ADC50BDDC46A /* Pods-GanifitDietgram.debug.xcconfig */,
+				7D45B527D2807BC72B4DAB43 /* Pods-GanifitDietgram.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				DF6A7E9725D8120600B5B7C4 /* Foundation.framework */,
-				246BEA90509CA0C535321601 /* Pods_GanifitDietgram.framework */,
+				F2251A56ABED213F8E43FC24 /* Pods_GanifitDietgram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,10 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF01581F25CCB4FF007AEE3F /* Build configuration list for PBXNativeTarget "GanifitDietgram" */;
 			buildPhases = (
-				EBB5EEF66137CD8D0584BB42 /* [CP] Check Pods Manifest.lock */,
+				C6F3138B6C571185D7D99513 /* [CP] Check Pods Manifest.lock */,
 				DF01580725CCB4FE007AEE3F /* Sources */,
 				DF01580825CCB4FE007AEE3F /* Frameworks */,
 				DF01580925CCB4FE007AEE3F /* Resources */,
+				DFDA77E825D818C4002854F5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -310,7 +308,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EBB5EEF66137CD8D0584BB42 /* [CP] Check Pods Manifest.lock */ = {
+		C6F3138B6C571185D7D99513 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,6 +328,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFDA77E825D818C4002854F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GanifitDietgram/Pods-GanifitDietgram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,12 +512,13 @@
 		};
 		DF01582025CCB4FF007AEE3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F3C3F188F185ECB5BCC8A91 /* Pods-GanifitDietgram.debug.xcconfig */;
+			baseConfigurationReference = 1F1191D79C97ADC50BDDC46A /* Pods-GanifitDietgram.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VH29LQ6AQ4;
 				INFOPLIST_FILE = GanifitDietgram/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -507,9 +526,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PODS_XCFRAMEWORKS_BUILD_DIR = "";
 				PRODUCT_BUNDLE_IDENTIFIER = KimDuni.GanifitDietgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Diet_Appstore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -517,12 +537,13 @@
 		};
 		DF01582125CCB4FF007AEE3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E86B50FBC32F8D4B8838A485 /* Pods-GanifitDietgram.release.xcconfig */;
+			baseConfigurationReference = 7D45B527D2807BC72B4DAB43 /* Pods-GanifitDietgram.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VH29LQ6AQ4;
 				INFOPLIST_FILE = GanifitDietgram/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -530,9 +551,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PODS_XCFRAMEWORKS_BUILD_DIR = "";
 				PRODUCT_BUNDLE_IDENTIFIER = KimDuni.GanifitDietgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Diet_Appstore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
